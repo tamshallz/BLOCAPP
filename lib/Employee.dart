@@ -21,7 +21,7 @@ class Employee {
 
   // getter
 
-  int get id => this.id;
+  int get id => this._id;
  String get name => this._name;
  double get salary => this._salary;
 }

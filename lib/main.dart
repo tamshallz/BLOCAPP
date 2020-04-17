@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Employee App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color(0xffED64A6),
+        primaryColor: Color(0xffD6BCFA),
       ),
       home: HomePage(),
     );

@@ -60,7 +60,7 @@ class EmployeeBloc {
 
     double incrementedSalary = salary * 20 / 100;
 
-    _employeeList[employee.id - 1].salary = salary + incrementedSalary;
+    _employeeList[employee.id  - 1].salary = salary + incrementedSalary;
 
     employeeListSink.add(_employeeList);
   }
@@ -70,7 +70,7 @@ class EmployeeBloc {
 
     double decrementedSalary = salary * 20 / 100;
 
-    _employeeList[employee.id - 1].salary = salary - decrementedSalary;
+    _employeeList[employee.id  - 1].salary = salary - decrementedSalary;
 
     employeeListSink.add(_employeeList);
   }
